@@ -1,0 +1,46 @@
+{
+  "Factura" : {
+    "business_contact": {
+      "business" : "",
+      "Street_adress" : "",
+      "City_state_zipcode" : "",
+      "number" : "",
+      "email" : "",
+      "website": ""
+    },
+    "Mail": {
+
+      "Bill_to": {
+        "clientName" : "",
+        "Street_adress": "",
+        "City_state_zipcode" : ""
+      },
+
+      "Ship_to" : {
+        "clientName" : "",
+        "Street_adress": "",
+        "City_state_zipcode" : ""
+      },
+
+      "Invoice_details" : {
+        "Invoice" : "#12345",
+        "Invoice_date" : "mm/dd/yyyy",
+        "Terms" : "net30",
+        "Due" : "mm/dd/yyyy"
+      }
+    },
+      "Sales": {
+        "Type" : "",
+        "Description" : "",
+        "Qty" : "",
+        "Rate" : "",
+        "Amount" : ""
+      },
+      "Total" : {
+        "Subtotal" : "",
+        "SalesTax" : "",
+        "Shipping" : "",
+        "Totalpay" : ""
+      }
+  }
+}
